@@ -111,9 +111,7 @@ button {
   .wel {
     position: absolute;
     top: 20px; }
-.bu{
-  display:none;
-  }
+
   body {
     overflow-y: scroll; } }
 @keyframes color {
