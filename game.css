@@ -1,0 +1,125 @@
+body {
+  background-image: linear-gradient(to right bottom, #d16ba5, #b788d5, #8ba6f3, #5cbffa, #4fd3f0, #41d6f4, #2dd9f7, #00dcfb, #00ceff, #00b8ff, #9b95ff, #ed5ffb);
+  background-size: 400%;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  animation: color 2s ease infinite; }
+  body .container {
+    height: 60%;
+    width: 80%;
+    background-image: linear-gradient(45deg, #d16ba5, #b788d5, #8ba6f3, #5cbffa, #4fd3f0, #41d6f4, #2dd9f7, #00dcfb, #00ceff, #00b8ff, #9b95ff, #ed5ffb);
+    animation: color 2s ease infinite;
+    background-size: 400%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3%;
+    gap: 10%; }
+    body .container .images {
+      height: 30%;
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10%;
+      position: relative; }
+    body .container .wel {
+      height: 10%;
+      width: 50%;
+      text-align: center; }
+    body .container .res {
+      height: 20%;
+      width: 70%; }
+
+.h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: transparent;
+  background: linear-gradient(67deg, #d400ff 0% 25%, #005eff 30% 70%, rgba(255, 2, 234, 0.9) 75% 100%);
+  background-clip: text;
+  -webkit-background-clip: text; }
+
+h3 {
+  text-align: center; }
+
+.imgs {
+  filter: invert(100%);
+  border-radius: 30%;
+  width: 100px;
+  height: 100px; }
+
+button {
+  border: 4px solid;
+  border-image: linear-gradient(to right, #00ffd9, #b300ff) 2;
+  border-radius: 20%; }
+  button:active {
+    /*  box-shadow: 1px 1px 4px; */
+    border: none;
+    scale: 0.9; }
+
+.res {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .res .h2 {
+    margin: 5px;
+    text-align: center;
+    background-color: #00dcfb;
+    color: #ed5ffb;
+    border-radius: 6px;
+    height: 30px;
+    width: 160px; }
+  .res #res {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    background-color: #ed5ffb;
+    display: inline;
+    border-radius: 10px;
+    color: #1f0214; }
+
+.bu {
+  background-color: #00ffd0;
+  color: #000200;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px; }
+
+@media screen and (max-width: 600px) {
+  .images {
+    display: flex;
+    flex-direction: column;
+    gap: 0%; }
+    .images h3 {
+      display: none; }
+
+  .imgs {
+    height: 60px;
+    width: 60px; }
+
+  .wel {
+    position: absolute;
+    top: 20px; }
+
+  body {
+    overflow-y: scroll; } }
+@keyframes color {
+  0% {
+    background-position: 0%; }
+  50% {
+    background-position: 100%; }
+  100% {
+    background-position: 0%; } }
+
+/*# sourceMappingURL=game.css.map */
