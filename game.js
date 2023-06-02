@@ -14,7 +14,7 @@ const init = () => {
   const rockf =() => {
     uv("rock");
   };
-  const paperf = () => {        document.getElementBycla
+  const paperf = () => {        
     uv("paper");
   };
   const scissorf = () => {
