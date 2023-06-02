@@ -14,7 +14,7 @@ const init = () => {
   const rockf =() => {
     uv("rock");
   };
-  const paperf = () => {
+  const paperf = () => {        document.getElementBycla
     uv("paper");
   };
   const scissorf = () => {
@@ -60,6 +60,8 @@ const init = () => {
       const finalResult = (r, m, p) => {
         let res = document.getElementById("res");
         res.innerHTML = "Computer Choosed " + m + ", so " + r;
+let bu= document.getElementsByClassName("bu")
+       bu[0].style.visibility="visible"
         let rest = "Computer Choosed " + m + ", so " + r;
         responsiveVoice.speak(rest)
         responsiveVoice.speak("click replay,to play again")
