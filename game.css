@@ -61,7 +61,8 @@ button {
   button:active {
     /*  box-shadow: 1px 1px 4px; */
     border: none;
-    scale: 0.9; }
+    scale: 0.9;
+display:hidden;}
 
 .res {
   position: relative;
