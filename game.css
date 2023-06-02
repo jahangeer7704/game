@@ -95,7 +95,8 @@ display:hidden;}
   width: 200px;
   height: 40px;
   font-weight: bold;
-  font-size: 20px; }
+  font-size: 20px;
+visibility:hidden;}
 
 @media screen and (max-width: 600px) {
   .images {
